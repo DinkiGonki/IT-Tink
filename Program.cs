@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace OldProqect
 {
@@ -20,7 +20,7 @@ namespace OldProqect
             if (vkladSum >= 100 & vkladSum <= 200)
             {
                 vkladWithProc = vkladSum + (vkladSum * 0.07);
-                Console.WriteLine($"Твои мани через год:\n {vkladWithProc}");
+                Console.WriteLine($"Твои деньги через год:\n {vkladWithProc}");
             }
             else 
             {
